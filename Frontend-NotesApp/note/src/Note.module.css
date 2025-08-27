@@ -1,0 +1,108 @@
+/* NotesApp.module.css */
+
+.container {
+  min-height: 100vh;
+  background-color: #418ad3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  font-family: Arial, sans-serif;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 5rem;
+  color: #333;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  width: 100%;
+
+  max-width: 400px;
+}
+
+.inputGroup {
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+.input {
+  flex-grow: 1;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px 0 0 4px;
+  outline: none;
+}
+
+.addButton {
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.addButton:hover {
+  background-color: #1d4ed8;
+}
+
+.notesList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.noteItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f3f4f6;
+  padding: 0.5rem;
+  border-radius: 4px;
+  margin-bottom: 0.5rem;
+  color: black;
+}
+
+.actions {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.editBtn {
+  background-color: #f59e0b;
+  border: none;
+  padding: 0.3rem 0.6rem;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.editBtn:hover {
+  background-color: #d97706;
+}
+
+.deleteBtn {
+  background-color: #ef4444;
+  border: none;
+  padding: 0.3rem 0.6rem;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.deleteBtn:hover {
+  background-color: #dc2626;
+}
+
+.emptyText {
+  text-align: center;
+  color: #6b7280;
+}
