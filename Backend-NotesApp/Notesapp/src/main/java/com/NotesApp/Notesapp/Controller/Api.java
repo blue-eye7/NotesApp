@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/api")
-@CrossOrigin(origins = "http://localhost:5173") // allow frontend origin
+@CrossOrigin(origins = "http://localhost:3000") // allow frontend origin
 public class Api {
 
     private final UserRepo userRepository;

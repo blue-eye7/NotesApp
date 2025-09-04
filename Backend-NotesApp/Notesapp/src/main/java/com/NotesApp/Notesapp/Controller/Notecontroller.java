@@ -18,7 +18,7 @@ import com.NotesApp.Notesapp.Service.Service;
 
 @RestController
 @RequestMapping("api/noteapi")
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = "http://localhost:3000")
 public class Notecontroller {
 	
 	
