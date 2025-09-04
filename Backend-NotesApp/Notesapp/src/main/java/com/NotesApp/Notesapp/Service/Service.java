@@ -5,7 +5,6 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.core.context.SecurityContextHolder;
 
-import com.NotesApp.Notesapp.Controller.ResposeEntity;
 import com.NotesApp.Notesapp.Entity.Notes;
 import com.NotesApp.Notesapp.Entity.User;
 import com.NotesApp.Notesapp.Repo.NotesRepo;
